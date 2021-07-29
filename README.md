@@ -1,3 +1,13 @@
 # My projects in Sinergo
-
-## [CB](https://github.com/arkhipkin7/sinergo/tree/main/cb) - Проект в центральный банк
+____
+- ## [CB](https://github.com/arkhipkin7/sinergo/tree/main/cb) - Проект в Центральный Банк
+  Решались две задачи: 
+  - задача регрессии;
+  - класетризации текста:
+  
+  Стек:
+  - Python
+  - Spark
+  - FastText
+  
+  Подробное описание проекта - [README.md](https://github.com/arkhipkin7/sinergo/blob/main/cb/linear_reg/README.md)
