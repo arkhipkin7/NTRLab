@@ -1,6 +1,6 @@
 # My projects in Sinergo
 ____
-- ## [CB](https://github.com/arkhipkin7/sinergo/tree/main/cb) - Проект в Центральный Банк
+- ## [KYC](https://github.com/arkhipkin7/sinergo/tree/main/cb) - Проект в Центральный Банк
   Решались две задачи: 
   - задача регрессии;
   - кластеризации текста:
@@ -8,6 +8,7 @@ ____
   Стек:
   - Python
   - Spark
+  - Hive
   - FastText
   
   Подробное описание проекта - [README.md](https://github.com/arkhipkin7/sinergo/blob/main/cb/linear_reg/README.md)
