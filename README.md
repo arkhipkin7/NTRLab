@@ -1,4 +1,4 @@
-# My projects in Sinergo
+# My projects in NTRLab
 ____
 - ## [KYC](https://github.com/arkhipkin7/sinergo/tree/main/cb) - Проект в Центральный Банк
   Решались две задачи: 
