@@ -1,7 +1,7 @@
 # Recommendation system
 ---
 ## Intro
-- We need to develop a rec system for the Novosibirk medical library
+- We need to develop a rec system for the Novosibirsk medical library
 
 ## Test system
 If you want to check the work go to the [link](https://recommendai.ntrlab.ru/)
