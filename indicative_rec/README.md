@@ -32,7 +32,7 @@ In the evalution quality of the model we used **HiteRate@k**
 |     5     |   0.12    |    0.09    |
 |     10    |   0.19    |    0.16    |
 
-- ALS
+- NeuFM
 
 |HiteRate@k | Val score | Test score |
 |-----------|-----------|------------|
