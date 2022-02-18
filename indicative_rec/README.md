@@ -9,38 +9,21 @@ If you want to check the work go to the [link](https://recommendai.ntrlab.ru/)
 - [users for test](https://github.com/arkhipkin7/NTRLab/blob/main/indicative_rec/data/users.csv).
 
 ## Models
-For our datasets with implicit feedback, we used three models to compare the work
+For our datasets with implicit feedback, we used four models to compare the work
 - [LightFM](https://making.lyst.com/lightfm/docs/lightfm.html) - [paper](https://arxiv.org/pdf/1507.08439.pdf)
 - [Alternating Least Squares](https://implicit.readthedocs.io/en/latest/als.html) - [paper](http://yifanhu.net/PUB/cf.pdf)
 - [Neural Collaborative Filtering](https://cornac.readthedocs.io/en/latest/models.html#module-cornac.models.ncf.recom_neumf) - [paper](https://arxiv.org/pdf/1708.05031.pdf)
+- Clustering of Kmeans on [FastText](https://fasttext.cc/docs/en/python-module.html) embeddings - [papaer](https://arxiv.org/pdf/1607.04606.pdf)
 
 ## Metrics
 In the evalution quality of the model we used **HiteRate@k**
-- LightFM
 
-|HiteRate@k | Val score | Test score|
-|-----------|-----------|-----------|
-|     1     |   0.02    |    0.02   |
-|     5     |   0.13    |    0.13   |
-|     10    |   0.27    |    0.23   |
-
-- ALS
-
-|HiteRate@k | Val score | Test score |
-|-----------|-----------|------------|
-|     1     |   0.04    |    0.03    |
-|     5     |   0.12    |    0.09    |
-|     10    |   0.19    |    0.16    |
-
-- NeuFM
-
-|HiteRate@k | Val score | Test score |
-|-----------|-----------|------------|
-|     1     |   0.15    |    0.14    |
-|     5     |   0.33    |    0.33    |
-|     10    |   0.43    |    0.44    |
-
-
+|Model | HitRate@10 | MAP@1 | MAP@5 | MAP@10|
+|-------|------------|-------|-------|-------|
+|ALS|0.01|0|0.0005|0.005|
+|Kmeans+FT|0.374|0.121|0.178|0.19|
+|LightFM| 0.116|0.0004|0.0006|0.0009|
+|NueFM|0.28|0.04|0.088|0.103|
 
 ## Future work
 - [ ] Solve "the cold start" problem
