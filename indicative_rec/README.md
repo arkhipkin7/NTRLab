@@ -16,7 +16,7 @@ For our datasets with implicit feedback, we used four models to compare the work
 - Clustering of Kmeans on [FastText](https://fasttext.cc/docs/en/python-module.html) embeddings - [papaer](https://arxiv.org/pdf/1607.04606.pdf)
 
 ## Metrics
-In the evalution quality of the model we used **HiteRate@k**
+In the evalution quality of the model we used **HiteRate@10** and **MAP@K**
 
 |Model | HitRate@10 | MAP@1 | MAP@5 | MAP@10|
 |-------|------------|-------|-------|-------|
